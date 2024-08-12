@@ -1,0 +1,25 @@
+{
+    "name": "rurindut/oms-latihan",
+	"type": "magento2-module",
+    "authors": [{
+            "name": "icubeus",
+            "email": "sales@icube.us"
+        }
+    ],
+    "description": "OMS Latihan.",
+    "homepage": "https://github.com/rurindut/oms-latihan",
+    "minimum-stability": "dev",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "src/module-omstest/registration.php"
+        ],
+        "psr-4": {
+            "Icube\\OmsLatihan\\": "src/module-omstest"
+        }
+    }
+}
